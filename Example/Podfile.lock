@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (2.5.3):
+    - AFNetworking/NSURLConnection (= 2.5.3)
+    - AFNetworking/NSURLSession (= 2.5.3)
+    - AFNetworking/Reachability (= 2.5.3)
+    - AFNetworking/Security (= 2.5.3)
+    - AFNetworking/Serialization (= 2.5.3)
+    - AFNetworking/UIKit (= 2.5.3)
+  - AFNetworking/NSURLConnection (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.3)
+  - AFNetworking/Security (2.5.3)
+  - AFNetworking/Serialization (2.5.3)
+  - AFNetworking/UIKit (2.5.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - MXLogd (0.1.0):
+    - AFNetworking (= 2.5.3)
+    - OpenUDID (= 1.0.0)
+    - PLCrashReporter (= 1.2.0)
+  - OpenUDID (1.0.0)
+  - PLCrashReporter (1.2.0)
+
+DEPENDENCIES:
+  - MXLogd (from `../`)
+
+EXTERNAL SOURCES:
+  MXLogd:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
+  MXLogd: fcb8498298a6ddcc8b5113e499db57d32b5ac987
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  PLCrashReporter: 16927d86a093d0b9cf110545dacb77cb0ed0f243
+
+COCOAPODS: 0.35.0

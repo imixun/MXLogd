@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'MXLogd', :exclusive => true do
+  pod "MXLogd", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "MXLogd", :path => "../"
+
+  
+end
