@@ -10,12 +10,10 @@
 Pod::Spec.new do |s|
   s.name             = "MXLogd"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MXLogd."
+  s.summary          = "imixun's log daemon."
   s.description      = <<-DESC
-                       An optional longer description of MXLogd
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       imixun's log daemon.
+                       created by leowu.
                        DESC
   s.homepage         = "https://github.com/imixun/MXLogd"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
